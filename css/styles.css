@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'TransformersMovie';
+    src: url(../fonts/TransformersMovie-y9Ad.ttf);
+}
+
+*{
+    font-family: 'TransformersMovie';
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.title{
+    color: black;
+    text-align: center;
+}
+
+
+.div-form{
+    width: 40%;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.content {
+    display: flex;
+    gap: 10rem;
+
+}
+
+.sidebar{
+    width: 20%;
+    border: 1px solid black;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.sidebar img{
+    border-radius: 50%;
+    width: 50%;
+    height: 25%;
+    border: 1px solid black;
+}
+
+.main-content{
+    width: 50%;
+}
+
+.sidebar, .main-content, .div-form{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+    background-color: white; /* Ajusta según sea necesario */
+    padding: 20px; /* Ajusta según sea necesario */
+}
