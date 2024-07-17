@@ -8,17 +8,21 @@
     <title>Portafolio</title>
 </head>
 <body>
-    <div class="title">
-        <h1>Calvencio</h1>
-    </div>
+    <header class="title">
+        <h1>Portafolio</h1>
+    </header>
 
     <div class="content">
         <div class="sidebar">
             <img src="img/pelao_xeno_sin_fondo.png" alt="">
-            <p>Nombre</p>
-            <p>Apellido</p>
-            <p>Correo</p>
-            <p>El alfa el jefe</p>
+            <br>
+            <br>
+            <ul class="sidebar-ul">
+              <li class="sidebar-li">Pelao Xenoverse2</li>
+              <li class="sidebar-li">Conton city</li>
+              <li class="sidebar-li">Correo</li>
+              <li class="sidebar-li">El alfa el jefe</li>
+            </ul>
         </div>
         <div class="main-content">
             <div class="card mb-3" style="max-width: 640px;">
@@ -34,20 +38,45 @@
                   </div>
                 </div>
               </div>
-              <div class="div-form">
-                <h1>Formulario de contacto</h1>
-                <form action="submit">
-                    <p>Nombre</p>
-                    <input type="text">
-                    <p>Apellido</p>
-                    <input type="text">
-                    <p>Correo</p>
-                    <input type="text">
-                </form>
-            </div>
+              <section class="projects">
+                <h2>Habilidades</h2>
+                <ul>
+                  <li class="skill-item" data-skill="kamehameha">Kamehameha x10</li>
+                  <li class="skill-item" data-skill="puñoPelao">Puño Pelao</li>
+                  <li class="skill-item" data-skill="modoBestia">Modo Bestia</li>
+                  <li class="skill-item" data-skill="kamehamehaInstantaneo">Kamehameha Instantaneo</li>
+                </ul>
+              </section>
+
+              <div class="modal fade" id="skillModal" tabindex="-1" aria-labelledby="skillModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="skillModalLabel">Detalle de la habilidad</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="skill-image" src="" alt="Skill Image" style="width: 100%;">
+                            <p id="skill-description"></p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <br>
+              <section class="projects">
+                <h2>Proyectos en los que he trabajado</h2>
+                <ul>
+                  <li>Patrullero del tiempo</li>
+                  <li>Guerrero Z</li>
+                  <li>Coliseo de heroes</li>
+                  <li>Repartidor de leche</li>
+                </ul>
+              </section>
         </div>
     </div>
 
+    <script src="js/skillDetail.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
