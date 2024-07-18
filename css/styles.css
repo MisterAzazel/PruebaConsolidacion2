@@ -54,6 +54,7 @@ li{
     border: 1px solid black;
     margin-left: 2rem;
     text-align: center;
+    max-height: 570px;
 }
 
 .sidebar-li{
@@ -90,6 +91,22 @@ li{
     background-color: white; /* Ajusta según sea necesario */
     padding: 20px; /* Ajusta según sea necesario */
 }
+
+.h2-contacto{
+    text-align: center;
+}
+
+.section-form{
+    max-width: 640px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+
+.div-btn{
+    text-align: center;
+}
+
+
 
 /* Media Queries for responsiveness */
 @media (max-width: 1200px) {

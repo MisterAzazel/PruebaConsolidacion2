@@ -7,21 +7,21 @@ document.querySelectorAll('.skill-item').forEach(item => {
 
 function showSkillDetail(skill) {
     const skillDetail = {
-        kamehameha: {
+        Kamehamehax10: {
             image: '../img/kamehamehax10.png',  // Reemplaza con la ruta correcta a tu imagen
             description: 'El Kamehameha es una técnica de onda de energía de Dragon Ball.'
         },
-        puñoPelao: {
+        AtaqueBrilloFinal: {
             image: '../img/Ataquebrillofinal.png',  // Reemplaza con la ruta correcta a tu imagen
-            description: 'El Puño Pelao es un ataque físico poderoso.'
+            description: 'El ataque brillo final es una tecnica usada por vegeta en dragon ball gt'
         },
-        modoBestia: {
+        Bestia: {
             image: '../img/Bestia.png',  // Reemplaza con la ruta correcta a tu imagen
-            description: 'Modo Bestia es un estado de aumento de poder.'
+            description: 'La tranformación de bestia es usada por Gohan en la pelicula de dragon ball super super hero'
         },
-        kamehamehaInstantaneo: {
+        BolaMortalVengadora: {
             image: '../img/bolamortalvengadora.png',  // Reemplaza con la ruta correcta a tu imagen
-            description: 'Kamehameha Instantáneo es una versión rápida del Kamehameha.'
+            description: 'La bola mortal vengadora es una tecnica usada por super baby vegeta 2 en dragon ball gt'
         }
     };
 
