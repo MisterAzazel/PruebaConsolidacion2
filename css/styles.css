@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(151, 151, 151);
 }
 
 .title{
@@ -45,23 +45,27 @@ li{
 
 .content {
     display: flex;
-    gap: 10rem;
+    gap: 8rem;
 
 }
 
 .sidebar{
     width: 20%;
     border: 1px solid black;
-    margin-left: 2rem;
+    margin-left: 4rem;
     text-align: center;
     max-height: 570px;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    word-wrap: break-word; /* Ajusta el texto para que no se salga del contenedor */
 }
 
 .sidebar-li{
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0.5rem;
     text-decoration: none;
     list-style: none;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    word-wrap: break-word; /* Ajusta el texto para que no se salga del contenedor */
 }
 
 .skill-item {
@@ -83,6 +87,7 @@ li{
 
 .main-content{
     width: 50%;
+    border: black solid 1px;
 }
 
 .sidebar, .main-content, .div-form{
