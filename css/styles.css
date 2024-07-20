@@ -68,6 +68,10 @@ li{
     word-wrap: break-word; /* Ajusta el texto para que no se salga del contenedor */
 }
 
+.card{
+    border: black solid 1px;
+}
+
 .skill-item {
     cursor: pointer;
 
