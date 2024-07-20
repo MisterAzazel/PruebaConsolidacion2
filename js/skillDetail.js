@@ -9,11 +9,11 @@ function showSkillDetail(skill) {
     const skillDetail = {
         Kamehamehax10: {
             image: '../img/kamehamehax10.png',  // Reemplaza con la ruta correcta a tu imagen
-            description: 'El Kamehameha es una técnica de onda de energía de Dragon Ball.'
+            description: 'El Kamehamehax10 es una tecnica que ocupa Goku ssj4 en dragon ball gt'
         },
         AtaqueBrilloFinal: {
             image: '../img/Ataquebrillofinal.png',  // Reemplaza con la ruta correcta a tu imagen
-            description: 'El ataque brillo final es una tecnica usada por vegeta en dragon ball gt'
+            description: 'El ataque brillo final es una tecnica usada por Vegeta en dragon ball gt'
         },
         Bestia: {
             image: '../img/Bestia.png',  // Reemplaza con la ruta correcta a tu imagen
@@ -21,7 +21,7 @@ function showSkillDetail(skill) {
         },
         BolaMortalVengadora: {
             image: '../img/bolamortalvengadora.png',  // Reemplaza con la ruta correcta a tu imagen
-            description: 'La bola mortal vengadora es una tecnica usada por super baby vegeta 2 en dragon ball gt'
+            description: 'La bola mortal vengadora es una tecnica usada por super Baby Vegeta 2 en dragon ball gt'
         }
     };
 
